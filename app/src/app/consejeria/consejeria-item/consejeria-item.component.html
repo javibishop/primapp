@@ -1,0 +1,9 @@
+<div
+  class="item-container"
+  [class.seleccionado] = "seleccionado"
+  (click)="flipSeleccion()"
+>
+  <mat-icon class="imagen">account_circle</mat-icon>
+  <div class="nombre" [class.inactivo]="!profesional.activo"> {{ profesional.nombre }} {{ profesional.apellido }}</div>
+  <div class="perfil"> {{ profesional.perfil.descripcion }} </div>
+</div>
