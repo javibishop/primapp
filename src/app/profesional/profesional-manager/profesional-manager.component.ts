@@ -3,7 +3,6 @@ import { Usuarie } from '../../models/usuarie.model';
 import { Router } from '@angular/router';
 import { UsuarieHttpService } from '../../services/usuarie-http.service';
 import { StateService } from '../../services/state.service';
-import { Especialidad } from '../../models/Especialidad.model';
 
 @Component({
   selector: 'app-profesional-manager',

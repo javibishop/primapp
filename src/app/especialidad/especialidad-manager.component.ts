@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { StateService } from '../services/state.service';
-import { Especialidad } from '../models/Especialidad.model';
+import { Especialidad } from '../models/especialidad.model';
 import { Router } from '@angular/router';
 import { EspecialidadHttpService } from '../services/especialidad-http.service';
 

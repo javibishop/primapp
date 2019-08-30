@@ -1,8 +1,7 @@
 import { Injectable } from '@angular/core';
 import {BehaviorSubject} from 'rxjs';
 import { Usuarie } from '../models/usuarie.model';
-import { Consejeria } from '../models/consejeria.model';
-import { Especialidad } from '../models/Especialidad.model';
+import { Especialidad } from '../models/especialidad.model';
 import { Pais } from '../models/pais.model';
 import { Provincia } from '../models/provincia.model';
 import { Localidad } from '../models/localidad.model';
